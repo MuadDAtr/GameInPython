@@ -5,7 +5,6 @@ pygame.init()
 
 window = pygame.display.set_mode((1200, 720))
 
-
 class Player:
     def __init__(self):
         self.x_cord = 0  #wspolrzedna x
@@ -90,7 +89,6 @@ def main():
 
     print(wynik)
         
-
 
 if __name__ == "__main__":
     main()
